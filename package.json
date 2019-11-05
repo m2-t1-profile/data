@@ -1,0 +1,21 @@
+{
+  "name": "m2-t1",
+  "version": "1.0.0",
+  "description": "My badass Nuxt.js project",
+  "author": "K-connor",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "simple-icons": "^1.19.0",
+    "vue-tailwind": "^0.4.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
