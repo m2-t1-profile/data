@@ -5,41 +5,57 @@
       <p class="text-xl md:text-2xl text-gray-500">{{ subMent }}</p>
 
       <div class="flex flex-wrap mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto items-center justify-between">
-        <a class="link" href="#" data-tippy-content="@connor">
-          <svg class="">
-            <title>github</title>
-            <path v-bind:d="simpleIcons.get('github').path"></path>
-          </svg>
-        </a>
-        <a class="link" href="#" data-tippy-content="@connor">
-          <svg class="">
-            <title>github</title>
-            <path v-bind:d="simpleIcons.get('github').path"></path>
-          </svg>
-        </a>
-        <a class="link" href="#" data-tippy-content="@connor">
-          <svg class="">
-            <title>github</title>
-            <path v-bind:d="simpleIcons.get('github').path"></path>
-          </svg>
-        </a>
+        <ul>
+          <li v-html="icons.GitHub.svg">
+
+          </li>
+        </ul>
+        <!--        <a class="link" href="#" data-tippy-content="@connor">-->
+
+        <!--          &lt;!&ndash;          <template v-bind:v-html="icons.ACM">{{ icons.AMD.svg }}</template>&ndash;&gt;-->
+        <!--        </a>-->
+        <!--        <a class="link" href="#" data-tippy-content="@connor">-->
+        <!--          &lt;!&ndash;          <template v-html="simpleIcons['Amazon AWS'].svg">&ndash;&gt;-->
+        <!--          &lt;!&ndash;          </template>&ndash;&gt;-->
+        <!--        </a>-->
+        <!--        <a class="link" href="#" data-tippy-content="@connor">-->
+        <!--          <svg class="">-->
+        <!--            <title>github</title>-->
+        <!--            &lt;!&ndash;            <path v-bind:d="simpleIcons.get('github').path"></path>&ndash;&gt;-->
+        <!--          </svg>-->
+        <!--        </a>-->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  // import simpleIcons from 'simple-icons';
+  import simpleIcons from 'simple-icons';
 
   export default {
     name: 'connor',
     layout: 'baseLayout',
 
     data: () => ({
-      simpleIcons: simpleIcons,
       ment: '안녕하세요! 만나뵙게되어 영광입니다.',
       subMent: '환영합니다!',
+      icons: simpleIcons,
     }),
+    fetch() {
+
+    },
+
+    created() {
+      windows.addEventListener('scroll', this.onscroll);
+    },
+    beforeDestroy() {
+      windows.removeEventListener('scroll', this.onscroll);
+    },
+    methods: {
+      onScroll() {
+
+      },
+    },
   };
 </script>
 

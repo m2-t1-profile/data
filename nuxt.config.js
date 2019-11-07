@@ -29,7 +29,10 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [
+    // {src: '~/plugins/Simpleicons.js'},
+    // '~plugins/Simpleicons.js'
+  ],
   /*
   ** Nuxt.js dev-modules
   */
@@ -40,12 +43,16 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [],
+  modules: []
+  ,
   /*
   ** Build configuration
   */
   build: {
-    vendor: ['vue-tailwind', 'simple-icons'],
+    transpile: [
+      // 'Simpleicons',
+    ],
+    vendor: [],
     /*
     ** You can extend webpack config here
     */
