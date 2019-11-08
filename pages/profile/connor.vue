@@ -1,30 +1,170 @@
 <template>
   <div class="w-full m-0 p-0 bg-cover bg-bottom">
+
     <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
       <p class="text-black font-extrabold text-3xl md:text-5xl">{{ ment }}</p>
       <p class="text-xl md:text-2xl text-gray-500">{{ subMent }}</p>
 
-      <div class="flex flex-wrap mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto items-center justify-between">
-        <ul>
-          <li v-html="icons.GitHub.svg">
+      <div class="border-solid border-t-2 border-b-2">
+        <a href="#" v-scroll-to="'#about'">Scroll to #about</a>
+      </div>
 
-          </li>
-        </ul>
-        <!--        <a class="link" href="#" data-tippy-content="@connor">-->
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
 
-        <!--          &lt;!&ndash;          <template v-bind:v-html="icons.ACM">{{ icons.AMD.svg }}</template>&ndash;&gt;-->
-        <!--        </a>-->
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafd
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      safsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+      fd
+      saffdsafdsafsdaf
+      sdaffdsafdsafsdaffdsafdsafsdafv
+      dsafdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaffdsafdsafsdaf
+
+      <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
         <!--        <a class="link" href="#" data-tippy-content="@connor">-->
-        <!--          &lt;!&ndash;          <template v-html="simpleIcons['Amazon AWS'].svg">&ndash;&gt;-->
-        <!--          &lt;!&ndash;          </template>&ndash;&gt;-->
-        <!--        </a>-->
-        <!--        <a class="link" href="#" data-tippy-content="@connor">-->
-        <!--          <svg class="">-->
-        <!--            <title>github</title>-->
-        <!--            &lt;!&ndash;            <path v-bind:d="simpleIcons.get('github').path"></path>&ndash;&gt;-->
+        <!--          <svg class="h-6 fill-current text-gray-600 hover:text-teal-700" viewBox="0 0 24 24">-->
+        <!--            <title>fdsaf</title>-->
+        <!--            <path :d="icons.Facebook.path"></path>-->
         <!--          </svg>-->
         <!--        </a>-->
       </div>
+      <about-connor></about-connor>
     </div>
   </div>
 </template>
@@ -33,29 +173,38 @@
   import simpleIcons from 'simple-icons';
 
   export default {
+    // scrollToTop: true,
+
     name: 'connor',
-    layout: 'baseLayout',
+
+    components: {
+      'AboutConnor': () => import('@/components/connor/about'),
+    },
 
     data: () => ({
-      ment: '안녕하세요! 만나뵙게되어 영광입니다.',
-      subMent: '환영합니다!',
+      ment: 'Modern하고 싶은 개발자',
+      subMent: '안녕하세요! 만나뵙게되어 영광입니다.',
       icons: simpleIcons,
     }),
     fetch() {
 
     },
+    mounted() {
 
-    created() {
-      windows.addEventListener('scroll', this.onscroll);
-    },
+      window.addEventListener('scroll', this.onscroll);
+    }
+    ,
     beforeDestroy() {
-      windows.removeEventListener('scroll', this.onscroll);
-    },
+      window.removeEventListener('scroll', this.onscroll);
+    }
+    ,
     methods: {
       onScroll() {
 
-      },
-    },
+      }
+      ,
+    }
+    ,
   };
 </script>
 
