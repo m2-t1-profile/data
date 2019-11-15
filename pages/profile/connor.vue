@@ -7,7 +7,6 @@
     <section id="about" class="h-screen">
       <about-connor></about-connor>
     </section>
-
     <section id="portfolio" class="h-screen">
       <about-connor></about-connor>
     </section>
