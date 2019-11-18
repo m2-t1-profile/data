@@ -1,5 +1,7 @@
 <template>
   <div class="w-full h-screen">
+    <home-connor></home-connor>
+
     <base-header></base-header>
     <nuxt>
 
@@ -13,8 +15,9 @@
     name: 'base-layout',
 
     components: {
-      baseFooter: () => import('~/components/base/Footer'),
+      HomeConnor: () => import('~/components/connor/home'),
       baseHeader: () => import('~/components/base/Header'),
+      baseFooter: () => import('~/components/base/Footer'),
     },
   };
 </script>

@@ -1,34 +1,29 @@
 <template>
-  <header class="bg-gray-900">
-    <div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
-      <div class="w-full mx-auto flex flex-wrap items-center">
-        <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
-          <a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="/">
-            <span class="text-base text-gray-200">꿈꾸는중..</span>
-          </a>
-        </div>
-        <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-          <ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
+  <div class="bg-gray-900" id="nav-bar">
+    <nav class="flex max-w-6xl mx-auto  items-center py-2">
+      <div class="flex flex-wrap w-full mx-auto items-center">
+        <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white">
+          <ul class="list-reset flex justify-center flex-1 md:flex-none items-center uppercase">
             <li>
-              <a class="inline-block py-2 px-3 text-white no-underline" href="#">Active</a>
+              <a class="py-2 px-3 text-white no-underline " href="#">About</a>
             </li>
             <li>
               <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-3"
-                 href="#">link</a>
+                 href="#">portfolio</a>
             </li>
             <li>
               <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-3"
-                 href="#">link</a>
+                 href="#">blog</a>
             </li>
             <li>
               <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-3"
-                 href="#">link</a>
+                 href="#">contact</a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
-  </header>
+    </nav>
+  </div>
 </template>
 
 <script>

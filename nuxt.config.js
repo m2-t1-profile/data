@@ -31,7 +31,7 @@ export default {
   */
   plugins: [
     // {src: '~/plugins/Simpleicons.js'},
-    // '~plugins/Simpleicons.js'
+    '~plugins/Simpleicons.js',
   ],
   /*
   ** Nuxt.js dev-modules

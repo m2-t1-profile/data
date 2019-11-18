@@ -1,13 +1,13 @@
 <template>
-  <div class="container mx-auto pt-16 md:pt-32 text-center break-normal">
-    <div class="text-center">
+  <div class="w-full h-screen container mx-auto pt-16 md:pt-32">
+    <div class="flax text-center">
       <p class="text-black font-extrabold text-6xl md:text-5xl">{{ ment }}</p>
       <p class="text-xl md:text-2xl text-gray-500">{{ subMent }}</p>
-      <div class="border-solid inline-flex border-t-2 border-b-2 p-3 m-3 hover:bg-blue-300" >
-        <a href="#" v-scroll-to="'#about'"  >
+      <div class="border-solid inline-flex border-t-2 border-b-2 p-3 m-3 hover:bg-gray-300">
+        <a href="#" v-scroll-to="'#nav-bar'">
           <p>
             View #About ME
-<!--            <i class="mdi mdi-arrow-right"></i>-->
+            <!--            <i class="mdi mdi-arrow-right"></i>-->
           </p>
         </a>
       </div>

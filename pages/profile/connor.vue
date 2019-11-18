@@ -1,14 +1,11 @@
 <template>
+  <div class="w-full bg-cover bg-bottom">
 
-  <div class=" w-full bg-cover bg-bottom">
-    <section id="main" class=" h-screen">
-      <home-connor></home-connor>
-    </section>
     <section id="about" class="h-screen">
       <about-connor></about-connor>
     </section>
     <section id="portfolio" class="h-screen">
-      <about-connor></about-connor>
+      <port-folio></port-folio>
     </section>
   </div>
 </template>
@@ -20,12 +17,12 @@
 
   export default {
     // scrollToTop: true,
-
+    layout: 'baseLayout',
     name: 'connor',
 
     components: {
-      'HomeConnor': () => import('@/components/connor/home'),
-      'AboutConnor': () => import('@/components/connor/about'),
+      AboutConnor: () => import('~/components/connor/about'),
+      PortFolio: () => import('~/components/connor/portfolio'),
     },
 
     data: () => ({
