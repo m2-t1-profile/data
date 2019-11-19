@@ -12,7 +12,6 @@
 
 <script>
   // http://findmatthew.com/
-
   import simpleIcons from 'simple-icons';
 
   export default {
