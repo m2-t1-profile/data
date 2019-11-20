@@ -156,15 +156,16 @@
           </div>
         </div>
         <p class="text-sm md:text-lg font-semibold">주요 기술</p>
-        <div>
-          fdsafsad
+        <div class="flex flex-row justify-between">
+          
         </div>
       </div>
     </div>
-
   </div>
 </template>
 <script>
+  import simpleicons from 'simple-icons';
+
   export default {
     name: 'about',
     components: {
@@ -172,6 +173,7 @@
     },
 
     data: () => ({
+      icons: null,
       show: true,
       chartdata: {
         labels: ['January', 'February'],
@@ -202,7 +204,9 @@
       },
     },
     mounted() {
-      // this.sections[0].value = 0;
+      this.icons = simpleicons;
+
+      console.log(this.icons.GitHub);
     },
   };
 </script>

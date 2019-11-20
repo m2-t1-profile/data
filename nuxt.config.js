@@ -31,7 +31,6 @@ export default {
   */
   plugins: [
     // {src: '~/plugins/Simpleicons.js'},
-    '~plugins/Simpleicons.js',
     '~plugins/vue-donut-chart.js',
   ],
   /*
