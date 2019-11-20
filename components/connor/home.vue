@@ -18,7 +18,7 @@
 </template>
 
 <script>
-  let fadeIdx = 0
+  let fadeIdx = 0;
 
   export default {
     name: 'home',
