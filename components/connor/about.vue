@@ -78,101 +78,92 @@
       <div class="p-3 w-2/6 bg-gray-300">
         <div class="flex flex-col">
           <div class="flex justify-center">
-            <img class="rounded-full mr-4 md:w-40" src="/Connor.jpg" title="To Profile">
+            <img class="rounded-full md:w-40" src="/Connor.jpg" title="To Profile">
           </div>
           <div class="text-center">
             <p class="text-6xl md:text-6xl uppercase">MinTae-Kim</p>
           </div>
         </div>
       </div>
-
       <div class="flex-col p-3 w-4/6 bg-gray-400">
-        <p class="text-sm md:text-lg font-semibold">능력치</p>
+        <p class="text-sm md:text-lg font-semibold">능력치(매우 주관적)</p>
         <div class="my-2">
           <div class="flex flex-row justify-between">
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 77 }]"
-                size="100"
-              >
-                <p class="text-sm md:text-mg uppercase">php</p>
-              </vc-donut>
-              <p class="text-center">77점</p>
+            <div>
+
             </div>
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 60 }]"
-                size="100"
+            <div v-for="item in itmes" class="mx-1">
+              <!--              <vc-donut-->
+              <!--                :sections="[{ 'value':item.value}]"-->
+              <!--                :size="100"-->
+              <!--              >-->
+              <!--                <p class="text-sm md:text-mg uppercase">{{item.label}}</p>-->
+              <!--              </vc-donut>-->
+              <!--              <p class="text-center">{{ item.value }}점</p>-->
+
+              <t-dropdown
+                dropdown-class="w-64 bg-blue-500 text-white border-blue-500 rounded-lg border shadow-md p-6 z-10"
+                :text="item.label"
               >
-                <p class="text-sm md:text-mg uppercase">JS</p>
-              </vc-donut>
-              <p class="text-center">60점</p>
-            </div>
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 50 }]"
-                size="100"
-              >
-                <p class="text-sm md:text-mg uppercase">mysql</p>
-              </vc-donut>
-              <p class="text-center">50점</p>
-            </div>
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 40 }]"
-                size="100"
-              >
-                <p class="text-sm md:text-mg uppercase">HTML/CSS</p>
-              </vc-donut>
-              <p class="text-center">40점</p>
-            </div>
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 60 }]"
-                size="100"
-              >
-                <p class="text-sm md:text-mg uppercase">C#</p>
-              </vc-donut>
-              <p class="text-center">60점</p>
-            </div>
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 50 }]"
-                size="100"
-              >
-                <p class="text-sm md:text-mg uppercase">Linux</p>
-              </vc-donut>
-              <p class="text-center">50점</p>
-            </div>
-            <div class="mx-1">
-              <vc-donut
-                :sections="[{ value: 50 }]"
-                size="100"
-              >
-                <p class="text-sm md:text-mg uppercase">python</p>
-              </vc-donut>
-              <p class="text-center">50점</p>
+                <p></p>
+              </t-dropdown>
             </div>
           </div>
         </div>
-        <p class="text-sm md:text-lg font-semibold">주요 기술</p>
-        <div class="flex flex-row justify-between">
-          
+      </div>
+    </div>
+
+    <div class="w-full px-1">
+      <div>
+        <p>관심 기술</p>
+      </div>
+      <div class="flex flex-row justify-between">
+        <div>
+          <font-awesome-icon :icon="['fab', 'github']" class="icon alt" swap-opacity size="4x"/>
+        </div>
+        <div>
+          <font-awesome-layers full-width class="fa-4x">
+            <font-awesome-icon :icon="['fab', 'python']"/>
+            <font-awesome-layers-text transform="down-5 shrink-8" value="python"/>
+          </font-awesome-layers>
+        </div>
+        <div>
+          <font-awesome-layers full-width class="fa-4x">
+            <font-awesome-icon :icon="['fab', 'laravel']"/>
+            <font-awesome-layers-text transform="down-5 shrink-8" value="Laravel"/>
+          </font-awesome-layers>
+        </div>
+        <div>
+          <font-awesome-layers full-width class="fa-4x">
+            <font-awesome-icon :icon="['fab', 'js']"/>
+            <font-awesome-layers-text transform="down-5 shrink-8" value="javaScript"/>
+          </font-awesome-layers>
+        </div>
+        <div>
+          <font-awesome-layers full-width class="fa-4x">
+            <font-awesome-icon :icon="['fab', 'vuejs']"/>
+            <font-awesome-layers-text transform="down-5 shrink-8" value="vue"/>
+          </font-awesome-layers>
+        </div>
+        <div>
+          <font-awesome-layers full-width class="fa-4x">
+            <font-awesome-icon :icon="['fab', 'react']"/>
+            <font-awesome-layers-text transform="down-5 shrink-8" value="react"/>
+          </font-awesome-layers>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-  import simpleicons from 'simple-icons';
 
   export default {
     name: 'about',
     components: {
-      LineChart: () => import('~/components/Charts'),
     },
 
     data: () => ({
+
       icons: null,
       show: true,
       chartdata: {
@@ -189,24 +180,19 @@
         responsive: true,
         maintainAspectRatio: false,
       },
-      sections: [
-        {label: 'Red section', value: 50},
-        {label: 'Green section', value: 0},
-        {label: 'Blue section', value: 0},
+      itmes: [
+        {label: 'PHP', value: 77},
+        {label: 'JS', value: 60},
+        {label: 'MySql', value: 60},
+        {label: 'HTML/CSS', value: 50},
+        {label: 'C#', value: 60},
+        {label: 'Linux', value: 50},
+        {label: 'python', value: 40},
       ],
-    }),
-    methods: {
-      add: function() {
-        this.sections[0].value++;
-      },
-      sub: function() {
-        this.sections[0].value--;
-      },
-    },
-    mounted() {
-      this.icons = simpleicons;
 
-      console.log(this.icons.GitHub);
+    }),
+    methods: {},
+    mounted() {
     },
   };
 </script>

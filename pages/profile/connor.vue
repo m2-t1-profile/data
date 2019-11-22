@@ -1,7 +1,8 @@
 <template>
   <div class="w-full bg-cover bg-bottom">
 
-    <section id="about" class="h-screen">
+    <!--  유동적으로 늘릴 예정..  -->
+    <section id="about">
       <about-connor></about-connor>
     </section>
     <section id="portfolio" class="h-screen">
@@ -12,7 +13,6 @@
 
 <script>
   // http://findmatthew.com/
-  import simpleIcons from 'simple-icons';
 
   export default {
     // scrollToTop: true,
@@ -24,14 +24,11 @@
       PortFolio: () => import('~/components/connor/portfolio'),
     },
 
-    data: () => ({
-      icons: simpleIcons,
-    }),
+    data: () => ({}),
     fetch() {
 
     },
     mounted() {
-
       window.addEventListener('scroll', this.onscroll);
     }
     ,
@@ -39,12 +36,7 @@
       window.removeEventListener('scroll', this.onscroll);
     }
     ,
-    methods: {
-      onScroll() {
-
-      }
-      ,
-    }
+    methods: { }
     ,
   };
 </script>

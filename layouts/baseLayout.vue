@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen">
+  <div class="w-full">
     <home-connor></home-connor>
 
     <base-header></base-header>

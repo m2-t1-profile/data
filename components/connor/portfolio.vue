@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto my-4">
     <div class="flex flex-col">
       <div class="md:flex">
         <div class="md:flex-shrink-0">
