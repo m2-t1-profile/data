@@ -109,61 +109,17 @@
         </div>
       </div>
     </div>
-
-    <div class="w-full px-1">
-      <div>
-        <p>흥미 있는 스택</p>
-      </div>
-      <div class="flex flex-wrap content-start bg-gray-200">
-        <!-- php -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/iconfinder_php-logo_1012812.svg" alt="C#">
-        </div>
-        <!-- Laravel -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/laravel.svg" alt="Laravel">
-        </div>
-        <!-- JS -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/iconfinder_187_Js_logo_logos_4373213.svg" alt="javaScript">
-        </div>
-        <!-- Vue -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/icons8-vue-js.svg" alt="VueJS">
-        </div>
-        <!-- react -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/icons8-react.svg" alt="react">
-        </div>
-        <!-- mariadb -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/mariadb-ar21.svg" alt="mariadb">
-        </div>
-        <!-- docker -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/icons8-docker.svg" alt="docker">
-        </div>
-        <!-- python -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/icons8-python.svg" alt="python">
-        </div>
-        <!-- C# -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/icons8-c-sharp-logo.svg" alt="C#">
-        </div>
-        <!-- golang -->
-        <div class="w-1/5 p-2 text-center">
-          <img class="object-center inline-block w-20 h-20 mr-4" src="/svg/icons8-golang.svg" alt="golang">
-        </div>
-      </div>
-    </div>
+    <!-- tech-stack -->
+    <tech-stack></tech-stack>
   </div>
 </template>
 <script>
 
   export default {
     name: 'about',
-    components: {},
+    components: {
+      'TechStack' : () => import('~/components/connor/tech-stack')
+    },
 
     data: () => ({
 
