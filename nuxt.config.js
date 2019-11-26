@@ -26,7 +26,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
+
   ],
   /*
   ** Plugins to load before mounting the App
@@ -35,9 +35,8 @@ export default {
     // {src: '~/plugins/simpleIcons.js'},
     // {scr: '~/plugins/vue-donut-chart', ssr: false},
     // {scr: '~/plugins/vue-animate-css'},
-    '~/plugins/vue-donut-chart',
-    '~/plugins/font-awesome',
     '~/plugins/vue-tailwind',
+    // '~/plugins/vue-tabs',
   ],
   /*
   ** Nuxt.js dev-modules

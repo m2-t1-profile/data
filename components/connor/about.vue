@@ -85,80 +85,48 @@
           </div>
         </div>
       </div>
-      <div class="flex-col p-3 w-4/6 bg-gray-400">
-        <p class="text-sm md:text-lg font-semibold">능력치(매우 주관적)</p>
-        <div class="my-2">
-          <div class="flex flex-row justify-between">
-            <div v-for="item in itmes" class="mx-1">
-              <!--              <vc-donut-->
-              <!--                :sections="[{ 'value':item.value}]"-->
-              <!--                :size="100"-->
-              <!--              >-->
-              <!--                <p class="text-sm md:text-mg uppercase">{{item.label}}</p>-->
-              <!--              </vc-donut>-->
-              <!--              <p class="text-center">{{ item.value }}점</p>-->
-
-              <t-dropdown
-                dropdown-class="w-64 bg-blue-500 text-white border-blue-500 rounded-lg border shadow-md p-6 z-10"
-                :text="item.label"
-              >
-                <p></p>
-              </t-dropdown>
-            </div>
-          </div>
+      <div class="flex-col p-3 w-4/6 ">
+        <p class="text-sm md:text-lg font-semibold">언어 스킬</p>
+        <div class="my-1">
+          <tabs>
+            <tab title="PHP">
+              - 이이거거
+            </tab>
+            <tab title="JS">
+              This is React
+            </tab>
+            <tab title="C#">
+              This is Svelte
+            </tab>
+            <tab title="MySql">
+              This is Sveltefdsfsadfsa
+            </tab>
+          </tabs>
         </div>
       </div>
     </div>
+
     <!-- tech-stack -->
     <tech-stack></tech-stack>
+
+
   </div>
 </template>
+
 <script>
+  import {Tabs, Tab} from 'vue-slim-tabs';
+  import 'vue-slim-tabs/themes/default.css';
 
   export default {
     name: 'about',
     components: {
-      'TechStack' : () => import('~/components/connor/tech-stack')
+      Tabs,
+      Tab,
+      'TechStack': () => import('~/components/connor/tech-stack'),
     },
 
     data: () => ({
-
-      icons: null,
       show: true,
-      chartdata: {
-        labels: ['January', 'February'],
-        datasets: [
-          {
-            label: 'Data One',
-            backgroundColor: '#f87979',
-            data: [40, 20],
-          },
-        ],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-      },
-      itmes: [
-        {label: 'PHP', value: 77},
-        {label: 'JS', value: 60},
-        {label: 'MySql', value: 60},
-        {label: 'HTML/CSS', value: 50},
-        {label: 'C#', value: 60},
-        {label: 'Linux', value: 50},
-        {label: 'python', value: 40},
-      ],
-      interests: [
-        'php',
-        'laravel',
-        'js',
-        'vuejs',
-        'node',
-        'react',
-        'github',
-        'python',
-        'csharp',
-      ],
     }),
     methods: {},
     mounted() {
